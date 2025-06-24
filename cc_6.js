@@ -1,5 +1,5 @@
 //base class
-class employee {
+class Employee {
     constructor (name,department){
         this.name =name
         this.department = department;
@@ -10,7 +10,7 @@ class employee {
 }
 
 //subclass manager
-class manager extends employee {
+class Manager extends Employee {
     constructor (name, department, teamSize) {
         super(name, department);
         this.teamSize = teamSize;
@@ -21,10 +21,10 @@ class manager extends employee {
 }
 
 //sample employees and manangers
-const emp1 = new employee("Alice","HR");
-const emp2 = new employee("Bob","Engineering");
-const mgr1 = new manager("Charlie","Sales",5);
-const mgr2 = new manager("Diana","Marketing",3);
+const emp1 = new Employee("Alice","HR");
+const emp2 = new Employee("Bob","Engineering");
+const mgr1 = new Manager("Charlie","Sales",5);
+const mgr2 = new Manager("Diana","Marketing",3);
 
 //company class
 class company {
