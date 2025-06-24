@@ -41,3 +41,4 @@ class company {
         });
 }
 }
+//instantiate company and add employees
