@@ -42,3 +42,10 @@ class company {
 }
 }
 //instantiate company and add employees
+const RushPowerLLC = new company();
+RushPowerLLC.addEmployee(emp1);
+RushPowerLLC.addEmployee(emp2);
+RushPowerLLC.addEmployee(mgr1);
+RushPowerLLC.addEmployee(mgr2);
+
+RushPowerLLC.listEmployees();
