@@ -11,7 +11,7 @@ class employee {
 
 //subclass manager
 class manager extends employee {
-    cosntructor (name, department, teamSize) {
+    constructor (name, department, teamSize) {
         super(name, department);
         this.teamSize = teamSize;
     }
