@@ -1,2 +1,2 @@
-# Employee-Management-System-
- an object-oriented system to manage employees and managers using JavaScript classes.
+This repository contains an Employee Management System built using object-oriented programming principles in JavaScript. The project uses JavaScript classes to create a structured and scalable system for managing employees and managers. It includes features such as adding new employees, assigning roles, tracking departments, and promoting employees to management positions. This system demonstrates a solid understanding of OOP concepts like inheritance, encapsulation, and method overriding, while offering a practical solution for organizing and maintaining employee data in a simplified, code-based environment.
+
